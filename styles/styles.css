@@ -1,0 +1,12 @@
+body{
+    background-color: blue;
+}
+
+
+#scene-container {
+  /*Jonas Mantay told me I should try this */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
