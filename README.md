@@ -1,32 +1,22 @@
-# WaveTimo
+## The Project
 
-WaveTimo is a WebGL project that showcases a captivating 3D visualization of a rotating cube and a wavy landscape. The project creates mesmerizing illusions by manipulating the components and leveraging the power of WebGL rendering.
+In this project I wanted to create something with displacement on planes. I used the first hours to work through the book,
+until I had a good setup.
 
-## Project Overview
+I found out how to access the geometry on planes, and then took a long time to understand how to manipulate them. I learned how to
+animate using the ThreeJS Clock class, and learned to regularly update the normals from the plane so the different lights will have an
+effect on the plane, which would otherwise be just one color (which also looked cool..)
 
-The main components of WaveTimo include:
+I then found a perlin noise generator online, and extended my src with that, and wanted to make good-looking random shapes with that.
+However, due to time contraints I wasn't able to do that.
 
-- Cube: A 3D cube that rotates gracefully in the scene, adding a sense of depth and movement.
+What I like about my project:
+- Its simple, but personally I can look at it forever because it's always changing.
+- I could very easily create waving flags, which would not take too long, but I don't have enough time sadly.
 
-- Wavy Landscape: A dynamic landscape that appears to ripple and undulate, creating an illusion of waves. This effect is achieved by manipulating the geometry of a plane using mathematical calculations.
+I hope that you will enjoy the result!
 
-## Features
 
-- 3D Visualization: Experience a fully immersive 3D environment with a rotating cube and a wavy landscape.
-
-- Illusionary Effects: The manipulation of the cube and landscape components creates captivating illusions and visual effects.
-
-- Real-time Animation: The animation is rendered in real-time, providing smooth and fluid movement.
-
-## Technologies Used
-
-- WebGL: The project utilizes WebGL, a JavaScript API for rendering interactive 2D and 3D graphics within compatible web browsers.
-
-- Three.js: Three.js, a popular JavaScript library built on top of WebGL, is used to simplify the creation of 3D scenes, manage objects, and handle rendering.
-
-- JavaScript: The project's logic and animation are implemented using JavaScript, a versatile programming language.
-
-- Live Server Plugin: The Live Server plugin for Visual Studio Code is used to run the project locally, making it easy to view and interact with the 3D visualization.
 
 ## Usage
 
@@ -44,10 +34,3 @@ To run the WaveTimo project locally, follow these steps:
 
 5. The project will be opened in your default web browser, allowing you to explore the mesmerizing 3D visualization of the rotating cube and wavy landscape.
 
-## Note
-
-While working on this project, I intended to include Perlin noise to enhance the displacement of the wavy landscape. However, due to time constraints, I was unable to implement this feature. Nonetheless, the current implementation still creates a visually captivating effect.
-
-## Credits
-
-The components of this project were created while following along with a book that provided guidance on WebGL development. Three.js was used to simplify the creation of 3D scenes and objects. The Live Server plugin for Visual Studio Code was used to facilitate the development process.
