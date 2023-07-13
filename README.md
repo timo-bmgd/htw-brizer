@@ -8,7 +8,7 @@ animate using the ThreeJS Clock class, and learned to regularly update the norma
 effect on the plane, which would otherwise be just one color (which also looked cool..)
 
 I then found a perlin noise generator online, and extended my src with that, and wanted to make good-looking random shapes with that.
-However, due to time contraints I wasn't able to do that.
+However, due to time contraints I wasn't able to finish that, so I went back to something that worked.
 
 What I like about my project:
 - Its simple, but personally I can look at it forever because it's always changing.
